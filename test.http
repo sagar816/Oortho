@@ -1,0 +1,15 @@
+###
+GET http://127.0.0.1:8000/login
+
+
+###
+POST  http://127.0.0.1:8000/login
+
+User-Agent: rest-client
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: application/json
+
+{
+    "email":"demo@demo.com",
+    "password":"demo"
+}
