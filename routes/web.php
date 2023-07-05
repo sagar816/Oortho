@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// test git comment
 Route::get('/', [DashboardController::class, 'index'])->middleware(['auth', 'verified']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
